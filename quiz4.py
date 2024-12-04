@@ -11,9 +11,12 @@
 def reverse_integer():
   number=input("ENTER A NUMBER: ")
 
+# -ve
   if number[0]=='-':
     output= '-'+ str(int(number[:0:-1]))
     print(output)
+  
+# +ve
   else:
     output=int(number[::-1])
     print(output)

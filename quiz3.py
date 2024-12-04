@@ -16,7 +16,7 @@ def check_pangram(pass_string):
     ifPangram=set(checked_string)
     print(sorted(ifPangram))
 
-    if alphabet_set.issubset(ifPangram):
+    if alphabet_set.issubset(ifPangram):   #all 26 in the sentence
         print('the sentence is pangram')
     else:
        print("not pangram")

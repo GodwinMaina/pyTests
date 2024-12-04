@@ -7,14 +7,14 @@
 
 def check(wordPhrase):
     checked=wordPhrase.lower()
-    #reverse by slicing
+    #reverse by slicing -1
     isPandrom=checked[::-1]
-    print(isPandrom)
+    # print(isPandrom)
 
     if (isPandrom==checked):
         print(f"Yes - {isPandrom} is palindrome")
     else:
-        print("Not palindrome")
+        print(f"The phrase '{isPandrom}' is Not palindrome")
 
 #yes palindrome
 check('madam')

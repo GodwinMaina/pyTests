@@ -6,8 +6,9 @@
 
 import pyodbc
 from prettytable import PrettyTable
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 # Connect
+
 connectDB = (
     "Driver={ODBC Driver 17 for SQL Server};"
     "Server=DESKTOP-UGJPDP0;"  

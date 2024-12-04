@@ -10,6 +10,6 @@ def quiz5():
     output=capital.title()
     print(f"'{output}'")
 
-quiz5()    
+quiz5()   
 
 
